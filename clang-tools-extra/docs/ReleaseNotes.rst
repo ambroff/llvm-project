@@ -98,6 +98,11 @@ Improvements to clang-tidy
 New checks
 ^^^^^^^^^^
 
+- New :doc:`bugprone-error-code-reference-param
+  <clang-tidy/checks/bugprone/error-code-reference-param>` check.
+
+  Ensure that std::error_code parameters are either l-value reference or const.
+
 New check aliases
 ^^^^^^^^^^^^^^^^^
 
